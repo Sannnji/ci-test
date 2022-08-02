@@ -1,19 +1,21 @@
-const express = require('express');
+// const express = require('express');
 
-let didShowMessage = false;
+const didShowMessage = false;
 
-let did_show_message = true;
+// let did_show_message = true;
 
-if (didShowMessage) {
-  function showMessage() {
-    const message = 'I like logs';
+function showMessage() {
+  const message = 'I like logs';
 
-    for (let i = 0; i < 5; i++) {
-      console.log(message);
-    }
+  for (let i = 0; i < 5; i += 1) {
+    console.log(message);
   }
 }
 
-const showTask = () => {};
+if (didShowMessage) {
+  showMessage();
+}
+
+// const showTask = () => {};
 
 module.exports = didShowMessage;
