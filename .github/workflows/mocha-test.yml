@@ -13,10 +13,10 @@ jobs:
         uses: actions/setup-node@v3.4.1
       - 
         name: Install mocha
-        run: yarn add mocha
+        run: npm add mocha
       - 
         name: Install dependencies
-        run: yarn install 
+        run: npm install 
       - 
         name: Run Test
-        run: yarn test 
+        run: npm run test 
