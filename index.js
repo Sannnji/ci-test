@@ -1,8 +1,8 @@
-const express = require('express');
+// const express = require('express');
 
 const didShowMessage = false;
 
-let did_show_message = true;
+// let did_show_message = true;
 
 function showMessage() {
   const message = 'I like logs';
@@ -16,6 +16,6 @@ if (didShowMessage) {
   showMessage();
 }
 
-const showTask = () => {};
+// const showTask = () => {};
 
 module.exports = didShowMessage;
